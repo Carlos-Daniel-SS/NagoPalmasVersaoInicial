@@ -1,7 +1,19 @@
 git init => Inicia o git na pasta
 git status => Para ver o status dos arquivos
 git add nomeDoArquivo => Fala para o git adicionar o arquivo para ser mapeado
+git add . => Adiciona todos os arquivos para ser mapeados pelo git
+git commit -m "descrição do que você fez"
 
+git remote add APELIDO linkDoRepositório
+git remote add origin link 
+
+git remote => List os repositório que existem na sua máquina
+
+push = empurrar
+
+git push origin master
+
+git branch => lista as branchs que existem no seu computador
 
 Para que o git não mapeie os arquivos:
     - Cria um arquivo chamado .gitignore
