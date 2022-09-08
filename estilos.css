@@ -1,8 +1,10 @@
 .cabecalho{
     background-color: aquamarine;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .menu{
     display: flex;
