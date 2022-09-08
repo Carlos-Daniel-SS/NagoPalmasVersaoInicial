@@ -1,0 +1,8 @@
+git init => Inicia o git na pasta
+git status => Para ver o status dos arquivos
+git add nomeDoArquivo => Fala para o git adicionar o arquivo para ser mapeado
+
+
+Para que o git não mapeie os arquivos:
+    - Cria um arquivo chamado .gitignore
+    - Digita o nome do arquivo ou pasta que não deseja mapear
