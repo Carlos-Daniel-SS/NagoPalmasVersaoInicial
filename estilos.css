@@ -1,0 +1,17 @@
+.cabecalho{
+    background-color: aquamarine;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu__lista{
+    margin-right: 20px;
+}
+.logo{
+    width: 9%; /* Largura */
+    height: 9%; /* Altura */
+}
