@@ -30,7 +30,14 @@ body {
     margin-right: 20px;
     font-weight: 600;
     font-size: 18px;
+    color: black;
 
+}
+.menu a:link{
+    text-decoration: none;
+}
+.menu a:hover{
+    color: white;
 }
 
 .logo {
@@ -44,16 +51,18 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 100px;
-    padding: 15px;
+    padding: 0;
+    height: 73vh;
     
 }
 
 .texto{
     display: flex;
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: justify;
-    
+    width: 50%;
+    flex-shrink: 50;
+
 }
 
 .rodape{
